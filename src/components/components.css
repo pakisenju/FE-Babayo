@@ -1,0 +1,70 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#card-products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#card-books {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: black;
+}
+
+.img-book {
+    transition: transform 0.4s
+}
+
+.img-book:hover {
+    transform: scale(1.03)
+}
+
+#cardBooks {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 4em;
+    color: black;
+}
+
+#dailyCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: black;
+    margin: 2em 0;
+}
+
+#dailyTables {
+    width: 100%;
+    color: black;
+}

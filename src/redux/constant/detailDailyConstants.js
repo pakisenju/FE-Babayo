@@ -1,0 +1,3 @@
+export const GET_DAILY_SUCCESS = 'GET_DAILY_SUCCESS';
+export const GET_DAILY_FAILURE = 'GET_DAILY_FAILURE';
+export const CHANGE_PAGE = 'CHANGE_PAGE';
